@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 
 std::string echo(int length, char** chars){
 	std::string ret = "";
@@ -8,6 +9,5 @@ std::string echo(int length, char** chars){
             	ret += " ";
         	}
     	}
-    	ret += "\n";
     	return ret;
 }	
